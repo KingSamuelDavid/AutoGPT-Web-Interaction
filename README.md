@@ -14,7 +14,7 @@ Note: The plugin is very flakey on GPT-3.5, I recommend using GPT-4. However, it
 
 ## Installation
 
-Follow these steps to configure the Auto-GPT Email Plugin:
+Follow these steps to configure the Auto-GPT Plugin:
 
 ### 1. Clone this repository.
 
@@ -22,11 +22,13 @@ Follow these steps to configure the Auto-GPT Email Plugin:
 
 ### 3. pip install playwright
 
-### 3. Zip/Compress the web_interaction folder
+### 4. playright install
 
-### 4. Drag the new zip file into the Auto-GPT plugins folder.
+### 5. Zip/Compress the web_interaction folder
 
-### 5. Set `ALLOWLISTED_PLUGINS=AutoGPTWebInteraction,example-plugin1,example-plugin2,etc` in your AutoGPT `.env` file.
+### 6. Drag the new zip file into the Auto-GPT plugins folder.
 
-### 6. Edit goals
+### 7. Set `ALLOWLISTED_PLUGINS=AutoGPTWebInteraction,example-plugin1,example-plugin2,etc` in your AutoGPT `.env` file.
+
+### 8. Edit goals
 When using Auto-GPT please set one of the goals to "Remember to use the Web Interaction Plugin possible".
